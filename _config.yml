@@ -1,0 +1,3 @@
+url: "https://magimals.github.io/toxic"
+plugins:
+    - jekyll-sitemap
