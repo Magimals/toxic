@@ -7,3 +7,4 @@ Holds website code for GitHub Pages.
 - `html/`: Markup for other pages.
 - `css/`: Styles for pages.
 - `scripts/`: Scripting.
+- `assets/`: Assets.
