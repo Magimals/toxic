@@ -17,7 +17,7 @@ in mp3, m4a, wav, and ogg format, and
 [here](https://github.com/WebDesignerCameron/src/blob/main/projects/magimals-toxic/assets/Videos/novisual)
 in mp4 format. 
 ### Logo
-![Magimals Toxic Logo](game-logo.jpg)
+![Magimals Toxic Logo](./game-logo.jpg)
 ## 🔃 Summary
 This is the official Magimals Toxic 
 website. Magimals Toxic, 
@@ -25,7 +25,7 @@ a WebDesignerCameron Project, was
 created by
 [WebDesignerCameron](https://github.com/WebDesignerCameron)
 and the other contributors listed
-[here](contributors.md). 
+[here](./documentation/CONTRIBUTORS.md). 
 ### Documentation
 This is the main documentation, though you can find others by clicking
 on the word 'Markdown' underneath the languages bar or you can head to
@@ -63,18 +63,14 @@ on the word 'Markdown' underneath the languages bar or you can head to
 ![Android](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white&style=for-the-badge)
 ![Love](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-white.svg?style=for-the-badge) 
 ## 🔗 Links
-* [Main Website](https://webdesignercameron.github.io/magimals-toxic)
-* [Contributors](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/contributors.md)
+* [Main Website](https://magimals.github.io/toxic)
+* [Contributors](./documentation/CONTRIBUTORS.md)
 * [Get your own brilliant website](https://webdesignercameron.github.io/WebDesignerCameronSites)
 * [See WebDesignerCameron](https://github.com/WebDesignerCameron)
-* [Copyright Clarifications](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/clarifications.md)
-* [Folders](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/src/src.md)
-* [License](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/LICENSE.md)
-* [Programming](https://webdesignercameron.github.io/magimals-toxic/program.html)
-* [Privacy Policy](PRIVACY.md)
-* [Record of changes](CHANGELOG.md)
-* [Source code](src/sourcecode.md)
-* [Assets](https://github.com/WebDesignerCameron/src/blob/main/projects/magimals-toxic/assets/) 
+* [License](./documentation/LICENSE.md)
+* [Programming](https://magimals.github.io/toxic/program.html)
+* [Privacy Policy](./documentation/PRIVACY.md)
+* [Assets](https://github.com/WebDesignerCameron/src/tree/main/projects/magimals-toxic/assets/) 
 ## 🎮 Game Introduction
 Magimals Toxic is a wild game of tactics 
 and strategy as you advance through the 
@@ -90,7 +86,7 @@ will ahead of you.
 ## 🧑‍💻 Running Magimals Toxic
 Since Beta 1.0 isn't released, you
 can only see the website, linked
-[here](https://webdesignercameron.github.io/magimals-toxic). You can also see
+[here](https://magimals.github.io/toxic/). You can also see
 the website differently, see below.
 
 ## 🚀 Quick Start & Local Run
@@ -100,11 +96,11 @@ Because the game is entirely client-side, you can host or play it instantly with
 ### Run Locally
 1. Clone the project to your local machine:
    ```bash
-   git clone https://github.com/WebDesignerCameron/magimals-toxic
+   git clone https://magimals.github.io/toxic
    ```
 2. Navigate into the directory:
    ```bash
-   cd magimals-toxic
+   cd toxic
    ```
 3. Open `index.html` directly in any modern web browser, or use a basic development server:
    ```bash
@@ -193,7 +189,7 @@ experience.
 * Story-driven progression
 ## 👋 Contributing
 To contribute, see our
-[contributing guidelines](CONTRIBUTING.md). 
+[contributing guidelines](./documentation/CONTRIBUTING.md). 
 ## 🦖 Backstory
 Many millenia ago, creatures known
 as the ancient Magimals roamed the
@@ -298,12 +294,7 @@ codebase runs client-side in the
 browser, you can clone the repository 
 and open `index.html` to play the full 
 game without an active internet 
-connection. Though, you will also have
-to clone the `src` repository with
-```bash
-git clone https://github.com/WebDesignerCameron/src
-```
-and save the source files. 
+connection.
 
 #### Q: How do I reset my saved game file?
 **A:** To clear your local save and 
@@ -416,9 +407,9 @@ For maximum tactical control and lightning-fast menu navigation, the complete in
 | **Move Down** | `S` | `Down Arrow` | `player_move_y(1)` |
 | **Move Left** | `A` | `Left Arrow` | `player_move_x(-1)` |
 | **Move Right** | `D` | `Right Arrow` | `player_move_x(1)` |
-| **Interact / Select** | `Spacebar` | `Enter` | `ui_execute_confirm()` |
+| **Interact / Select** | `E` | `Enter` | `ui_execute_confirm()` |
 | **Cancel / Menu Back**| `Escape` | `Backspace` | `ui_execute_cancel()` |
-| **Open Inventory** | `I` | `E` | `ui_toggle_backpack()` |
+| **Open Inventory** | `C` | `Shift` | `ui_toggle_backpack()` |
 
 ## ♿ Accessability
 There are single tap controls to suit
@@ -495,7 +486,7 @@ The sequential mounting of game systems follows a rigid lifecycle hook model to 
 ```
 ## 😊 Credits
 Thanks to all people listed
-[here](contributors.md), who decided
+[here](./documentation/CONTRIBUTORS.md), who decided
 to join the group and made their
 contributions. And thanks to you,
 for viewing Magimals Toxic. 
@@ -539,9 +530,9 @@ Cameron has founded several initiatives under the **WebDesignerCameron** brand, 
 
 | Project Name | Description | Link |
 | :--- | :--- | :--- |
-| **Magimals Toxic** | An official website for an RPG monster-catching game, leveraging his full web stack to bring creative concepts to life. | [View Project](https://webdesignercameron.github.io/magimals-toxic) |
+| **Magimals Toxic** | An official website for an RPG monster-catching game, leveraging his full web stack to bring creative concepts to life. | [View Project](https://magimals.github.io/toxic) |
 | **Source Files** | A dedicated repository containing source code for various projects and template code for other developers to use. | [View Repo](https://github.com/WebDesignerCameron/src) |
-| **Learning Log** | A documented journey of his coding progress and milestones. | [View Log](https://webdesignercameron.github.io/ll2) |
+| **Learning Log** | An educational learning website. | [View Log](https://webdesignercameron.github.io/ll2) |
 | **HammerForge Miniatures** | A web project showcasing his design and development capabilities. | [View Site](https://webdesignercameron.github.io/HammerForge-Miniatures) |
 | **WebDesignerCameron Ask** | A platform for community interaction and inquiries. | [View Site](https://webdesignercameron.github.io/WebDesignerCameronAsk) |
 
@@ -561,7 +552,7 @@ Cameron believes in building "without reference" whenever possible to test his c
 
 #### **Connect with Cameron**
 *   **GitHub:** [@WebDesignerCameron](https://github.com/WebDesignerCameron)
-*   **Main Website:** [WDC Main](https://webdesignercameron.github.io/WDC)
+*   **Main Website:** [WDC Main](https://webdesignercameron.github.io/)
 *   **Portfolio:** [About Me](https://webdesignercameron.github.io/aboutcamrepo)
 *   **Asking Service:** [WDC Ask](https://webdesignercameron.github.io/WebDesignerCameronAsk)
 
