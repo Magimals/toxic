@@ -1,3 +1,4 @@
+docs/** linguist-vendored=false
 # Adds Markdown to languages bar
 *.md linguist-documentation=false
 *.md linguist-language=Markdown
