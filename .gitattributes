@@ -1,4 +1,8 @@
-docs/** linguist-vendored=false
+docs/** linguist-vendored=false linguist-detectable=true linguist-documentation=false
+docs/*.html linguist-language=HTML
+docs/*.css linguist-language=CSS
+docs/*.js linguist-language=JavaScript
+docs/*.md linguist-language=Markdown
 # Adds Markdown to languages bar
 *.md linguist-documentation=false
 *.md linguist-language=Markdown
